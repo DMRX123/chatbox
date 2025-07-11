@@ -1,0 +1,35 @@
+[
+  {
+    "id": "user1",
+    "name": "Alex Johnson",
+    "email": "alex@example.com",
+    "profileImage": "images/profile/user1.jpg",
+    "badges": ["star", "reel_maker"],
+    "followers": 1243,
+    "following": 56,
+    "role": "reel_maker",
+    "zone": "entertainment"
+  },
+  {
+    "id": "user2",
+    "name": "Priya Sharma",
+    "email": "priya@example.com",
+    "profileImage": "images/profile/user2.jpg",
+    "badges": ["guru"],
+    "followers": 8921,
+    "following": 112,
+    "role": "family",
+    "zone": "mixed"
+  },
+  {
+    "id": "user3",
+    "name": "James Wilson",
+    "email": "james@example.com",
+    "profileImage": "images/profile/user3.jpg",
+    "badges": ["king", "vip"],
+    "followers": 45678,
+    "following": 231,
+    "role": "reel_maker",
+    "zone": "entertainment"
+  }
+]

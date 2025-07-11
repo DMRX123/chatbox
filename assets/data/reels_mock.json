@@ -1,0 +1,32 @@
+[
+  {
+    "id": "reel1",
+    "userId": "user1",
+    "videoUrl": "videos/reel1.mp4",
+    "caption": "Check out this cool trick! #viral",
+    "likes": 1245,
+    "comments": 89,
+    "timestamp": "2024-05-15T10:30:00Z",
+    "tags": ["viral", "trending"]
+  },
+  {
+    "id": "reel2",
+    "userId": "user3",
+    "videoUrl": "videos/reel2.mp4",
+    "caption": "Morning vibes 🌞",
+    "likes": 8765,
+    "comments": 213,
+    "timestamp": "2024-05-14T08:15:00Z",
+    "tags": ["morning", "vibes"]
+  },
+  {
+    "id": "reel3",
+    "userId": "user2",
+    "videoUrl": "videos/reel3.mp4",
+    "caption": "Family dinner time!",
+    "likes": 432,
+    "comments": 12,
+    "timestamp": "2024-05-13T19:45:00Z",
+    "tags": ["family", "food"]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "badges": [
+    {
+      "id": "star",
+      "name": "Star",
+      "description": "Awarded for 1,000+ likes across posts",
+      "icon": "badges/star.svg"
+    },
+    {
+      "id": "guru",
+      "name": "Guru",
+      "description": "Top 1% content creator this month",
+      "icon": "badges/guru.svg"
+    },
+    {
+      "id": "king",
+      "name": "King",
+      "description": "Pic of the Year winner",
+      "icon": "badges/king.svg"
+    },
+    {
+      "id": "vip",
+      "name": "VIP",
+      "description": "Verified influential person",
+      "icon": "badges/vip.svg"
+    },
+    {
+      "id": "reel_maker",
+      "name": "Reel Maker",
+      "description": "Created 50+ reels",
+      "icon": "badges/reel_maker.svg"
+    }
+  ],
+  "criteria": {
+    "star": {
+      "requiredLikes": 1000,
+      "requiredPosts": 10
+    },
+    "guru": {
+      "minFollowers": 5000,
+      "contentQualityScore": 90
+    },
+    "blue_tick": {
+      "options": [
+        { "winAllLevels": true },
+        { "minFollowers": 100000 }
+      ]
+    }
+  }
+}

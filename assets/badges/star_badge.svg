@@ -1,0 +1,39 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gold Gradient -->
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFC107"/>
+      <stop offset="100%" stop-color="#FFA000"/>
+    </linearGradient>
+
+    <!-- Inner Glow -->
+    <radialGradient id="innerGlow" cx="64" cy="64" r="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF8E1" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Circular Background -->
+  <circle cx="64" cy="64" r="60" fill="url(#goldGradient)" stroke="#FFEB3B" stroke-width="4" filter="url(#shadow)" />
+
+  <!-- Inner Glow -->
+  <circle cx="64" cy="64" r="50" fill="url(#innerGlow)" />
+
+  <!-- Star Shape -->
+  <path
+      d="M64 30 L72.5 52 H96 L77.5 66 L85 90 L64 74 L43 90 L50.5 66 L32 52 H55.5 Z"
+      fill="#FFF176"
+      stroke="#FBC02D"
+      stroke-width="3"
+      filter="url(#shadow)"
+  />
+
+  <!-- Star Center Shine -->
+  <circle cx="64" cy="64" r="6" fill="white" fill-opacity="0.8" />
+</svg>

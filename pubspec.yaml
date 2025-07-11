@@ -1,0 +1,91 @@
+name: chatbox
+description: A Flutter chatbox application with social features.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+  firebase_messaging: ^14.7.10
+
+  # State Management
+  flutter_bloc: ^8.1.3
+  provider: ^6.1.1
+  equatable: ^2.0.5
+
+  # UI & Animations
+  lottie: ^2.7.0
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+
+  # Media
+  image_picker: ^1.0.4
+  video_player: ^2.8.1
+  camera: ^0.10.5+5
+
+  # Utilities
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  uuid: ^4.1.0
+  intl: ^0.18.1
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Animations
+    - assets/animations/loading.json
+    - assets/animations/success.json
+
+    # Badges
+    - assets/badges/vip.svg
+    - assets/badges/verified.svg
+    - assets/badges/star_badge.svg
+
+    # Icons
+    - assets/icons/like.svg
+    - assets/icons/comment.svg
+    - assets/icons/share.svg
+
+    # Images - Posts
+    - assets/images/posts/sample_post1.jpg
+    - assets/images/posts/sample_post2.jpg
+
+    # Images - Profile
+    - assets/images/profile/default_avatar.png
+
+    # Images - Stories
+    - assets/images/stories/story_1.png
+
+    # Logo & Splash
+    - assets/logo/logo.png
+    - assets/splash/splash_bg.jpg
+
+    # Mock Data (JSON Files)
+    - assets/data/user_mock.json
+    - assets/data/reels_mock.json
+    - assets/data/messages_mock.json
+    - assets/data/badges.json
+    - assets/data/stories_mock.json
+
+# (Optional) Fonts section if you plan to add custom fonts later:
+# fonts:
+#   - family: CustomFont
+#     fonts:
+#       - asset: assets/fonts/CustomFont-Regular.ttf

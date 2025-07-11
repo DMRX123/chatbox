@@ -1,0 +1,20 @@
+[
+  {
+    "id": "story1",
+    "userId": "user1",
+    "mediaUrl": "images/stories/story1.jpg",
+    "mediaType": "image",
+    "timestamp": "2024-05-15T09:10:00Z",
+    "expiresAt": "2024-05-16T09:10:00Z",
+    "viewers": ["user2", "user3"]
+  },
+  {
+    "id": "story2",
+    "userId": "user3",
+    "mediaUrl": "videos/stories/story2.mp4",
+    "mediaType": "video",
+    "timestamp": "2024-05-14T15:00:00Z",
+    "expiresAt": "2024-05-15T15:00:00Z",
+    "viewers": ["user1", "user2"]
+  }
+]

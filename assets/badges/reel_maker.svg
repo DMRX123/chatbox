@@ -1,0 +1,46 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <!-- Film Gradient -->
+    <linearGradient id="filmGradient" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#673AB7"/>
+      <stop offset="50%" stop-color="#9C27B0"/>
+      <stop offset="100%" stop-color="#E91E63"/>
+    </linearGradient>
+
+    <!-- Gold Text Gradient -->
+    <linearGradient id="textGradient" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+
+    <!-- Drop Shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="58" fill="url(#filmGradient)" stroke="#FFF" stroke-width="4" filter="url(#shadow)" />
+
+  <!-- Camera Film Roll Body -->
+  <rect x="34" y="38" width="60" height="52" rx="10" fill="#1C1C1C" stroke="#FFF" stroke-width="2"/>
+
+  <!-- Film Strip Holes (left) -->
+  <circle cx="38" cy="44" r="3" fill="#FFF"/>
+  <circle cx="38" cy="56" r="3" fill="#FFF"/>
+  <circle cx="38" cy="68" r="3" fill="#FFF"/>
+
+  <!-- Film Strip Holes (right) -->
+  <circle cx="90" cy="44" r="3" fill="#FFF"/>
+  <circle cx="90" cy="56" r="3" fill="#FFF"/>
+  <circle cx="90" cy="68" r="3" fill="#FFF"/>
+
+  <!-- Play Button Inside Film -->
+  <polygon points="58,54 72,64 58,74" fill="url(#textGradient)"/>
+
+  <!-- Text: REEL MAKER -->
+  <text x="64" y="110" text-anchor="middle" font-size="16" font-weight="bold"
+      font-family="Segoe UI, sans-serif" fill="url(#textGradient)">
+    REEL MAKER
+  </text>
+</svg>

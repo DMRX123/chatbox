@@ -1,0 +1,37 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <!-- Golden Gradient -->
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+
+    <!-- Royal Blue Background -->
+    <radialGradient id="royalBackground" cx="64" cy="64" r="64">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+
+    <!-- Drop Shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Circle Badge -->
+  <circle cx="64" cy="64" r="60" fill="url(#royalBackground)" stroke="url(#goldGradient)" stroke-width="4" filter="url(#shadow)"/>
+
+  <!-- Crown Icon -->
+  <path d="M48 40 L52 54 L64 44 L76 54 L80 40 L72 46 L64 34 L56 46 Z"
+      fill="url(#goldGradient)" stroke="#FFF" stroke-width="1"/>
+
+  <!-- Shield (behind crown) -->
+  <path d="M64 50 C78 50, 88 62, 64 92 C40 62, 50 50, 64 50 Z"
+      fill="url(#goldGradient)" fill-opacity="0.15" />
+
+  <!-- KING Text -->
+  <text x="64" y="110" font-size="20" font-weight="bold" text-anchor="middle"
+      fill="url(#goldGradient)" font-family="Georgia, serif" letter-spacing="2">
+    KING
+  </text>
+</svg>
